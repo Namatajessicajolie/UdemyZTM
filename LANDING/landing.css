@@ -1,0 +1,41 @@
+body,html{
+    width:100%;
+    height: 100%;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    background: url(computer.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    color:rgba(255, 255, 255, 0.917);
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.btn-xl{
+    padding:1rem 2rem;
+}
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-primary{
+    background-color: rgb(255, 115, 0);
+    border-color: rgb(255, 115, 0);
+}
+
+.btn-primary:hover{
+    background-color:rgb(233, 111, 10);
+    border-color: rgb(233, 115, 0);
+    border-width: 2px;
+}
+hr{
+    border-color: rgb(255, 115, 0);
+    border-width: 3px;
+    max-width: 65px;
+}
+.buffer{
+    height: 5rem;
+}
